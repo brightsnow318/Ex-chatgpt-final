@@ -1,7 +1,11 @@
 import Browser from "webextension-polyfill"
+
 import { v4 as uuidv4 } from 'uuid'
+
 import { getCurrentLanguageName, getLocaleLanguage, getTranslation, localizationKeys } from "./localization"
+
 import { getUserConfig } from "./userConfig"
+
 import { SearchResult } from "src/content-scripts/web_search"
 
 export const SAVED_PROMPTS_KEY = 'saved_prompts'

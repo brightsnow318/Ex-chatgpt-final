@@ -4,8 +4,9 @@ import { useLayoutEffect, useState } from "preact/hooks"
 import PromptEditor from "src/components/promptEditor"
 import NavBar from "src/components/navBar"
 import { getUserConfig, updateUserConfig } from "src/util/userConfig"
-import "../style/base.css"
 import OptionsEditor from "src/components/optionsEditor"
+import "../style/base.css"
+
 
 
 const Footer = () => (
